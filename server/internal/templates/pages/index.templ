@@ -1,0 +1,19 @@
+package pages
+
+templ Index(name string) {
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hello, {name}</title>
+		<link rel="stylesheet" href="/static/css/output.css"> <!-- Link to the CSS file -->
+	</head>
+	<body>
+		<h1>Hello, {name}</h1>
+		<p>Welcome to your Fiber and Templ integration!</p>
+		<script src="/static/dist/main.js"></script>
+	</body>
+	</html>
+}
+
